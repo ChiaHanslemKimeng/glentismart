@@ -316,7 +316,7 @@ header.sticky{
 
 .portfolio-content{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+   grid-template-columns: repeat(auto-fit, minmax(290px, auto));
    align-items: center;
    gap: 2.3rem;
    margin-top: 4.2rem;
@@ -629,6 +629,10 @@ form .send-btn:hover{
     font-size: 13px;
     padding: 9px 23px;
   }
+
+  .about-text h2{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 470px){
@@ -651,6 +655,14 @@ form .send-btn:hover{
   .main-content h1{
     font-size: 2.6rem;
   }
+
+  .exp-area p{
+    font-size: 16px;
+  }
+
+  .exp-area p span{
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 462px){
@@ -666,4 +678,14 @@ form .send-btn:hover{
   .main-content h1{
     font-size: 2.2rem;
   }
+
+  .about-text h2{
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 408px){
+  .portfolio-content{
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+ }
 }
